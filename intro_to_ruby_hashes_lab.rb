@@ -13,9 +13,9 @@ def monopoly_with_second_tier
 end
 
 #the monopoly_with_third_tier method builds on the Hash returned by monopoly_with_second_tier, but updates the Hash pointed at by :railroads such that the Hash
-    has a key called :rent_in_dollars (FAILED - 1)
+   # has a key called :rent_in_dollars (FAILED - 1)
     
-    but updates the Hash pointed at by :railroads such that the Hash has a key called :rent_in_dollars
+   # but updates the Hash pointed at by :railroads such that the Hash has a key called :rent_in_dollars
      #Failure/Error: expect(monopoly_with_third_tier[:railroads].has_key?(:rent_in_dollars)).to(be_truthy, ":railroads should point to a Hash with key rent_in_dollars")
      #  :railroads should point to a Hash with key rent_in_dollars
 
